@@ -1,0 +1,105 @@
+@charset "utf-8";
+/*页头*/
+header {
+	min-width: 1280px;
+	height: 57px;
+}
+.logo {
+	float: left;
+	width: 104px;
+	margin-left: 59px;
+
+	font-size: 21px;
+	font-family: "黑体", sans-serif;
+	line-height: 57px;
+	text-align: right;
+	color: #393a3a;	
+
+	background: url(../images/logo_03.png) no-repeat left center;
+}
+.nav_list {
+	float: right;
+	list-style: none;
+}
+.nav_list li {
+	float: left;
+	margin-left: 46px;
+
+	font-size: 14px;
+	color: #787b83;	
+	line-height: 57px;
+
+	cursor: pointer;
+}
+.nav_list li:last-child {
+	width: 47px;
+	margin-right: 67px;
+	margin-left: 31px;
+
+	text-align: right;
+	color: #e74f4d;
+	
+	background: url(../images/nav_03.png) no-repeat left center;
+}
+.nav_list li:hover {
+	color: #e74f4d;
+}
+
+
+/*内容*/
+div.content {
+	min-width: 1280px;
+	border-top: 1px #e2e0df solid;
+	border-bottom: 1px #847b7e solid;
+}
+.part1 {
+	text-align: center;
+}
+.banner {
+	position: relative;
+}
+.banner img {
+	width: 100%;
+	display: block;
+}
+.part1-text {
+	position: absolute;
+	top: 229px;
+	left: 117px;
+
+	text-align: left;
+}
+.part1-text h1 {
+	font-size: 60px;
+	font-weight: normal;
+
+	margin-bottom: 29px;
+}
+.part1-text p {
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 32px;
+
+	width: 298px;
+}
+.part1-text button {
+	margin-top: 64px;
+	border: none;
+	width: 311px;
+	height: 64px;
+
+	font-size: 30px;
+	color: #fff;
+	font-family: "微软雅黑", sans-serif;
+	line-height: 64px;
+
+	background: #e74f4d;
+}
+
+
+/*页尾*/
+footer {
+	min-width: 1280px;
+	height: 416px;
+	background: #32353e;
+}
